@@ -1,0 +1,37 @@
+
+Static library
+-o1
+AFTER ALL OPERATIONS ON DYNAMIC ALLOCATED ARRAY
+ kernel: 0.295917s   |   user: 8.189372s
+
+AFTER ALL OPERATIONS ON STATIC ALLOCATED ARRAY
+ kernel: 0.000006s   |   user: 13.480680s
+
+STATS FOR WHOLE PROGRAM:
+ real: 21.965986s   |    kernel: 0.295923s   |   user: 21.670063s
+
+
+Static library
+-o2
+AFTER ALL OPERATIONS ON DYNAMIC ALLOCATED ARRAY
+ kernel: 0.348015s   |   user: 9.075873s
+
+AFTER ALL OPERATIONS ON STATIC ALLOCATED ARRAY
+ kernel: 0.011880s   |   user: 13.345094s
+
+STATS FOR WHOLE PROGRAM:
+ real: 22.780873s   |    kernel: 0.359895s   |   user: 22.420977s
+
+
+Static library
+-o3
+AFTER ALL OPERATIONS ON DYNAMIC ALLOCATED ARRAY
+ kernel: 0.227930s   |   user: 8.193181s
+
+AFTER ALL OPERATIONS ON STATIC ALLOCATED ARRAY
+ kernel: 0.000046s   |   user: 12.792340s
+
+STATS FOR WHOLE PROGRAM:
+ real: 21.213510s   |    kernel: 0.227976s   |   user: 20.985535s
+
+KOMENTARZ: brak poprawy w czasie wykonania

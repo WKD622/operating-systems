@@ -1,2 +1,0 @@
-/usr/bin/ar qc libZad1.a  CMakeFiles/Zad1.dir/library.c.o
-/usr/bin/ranlib libZad1.a

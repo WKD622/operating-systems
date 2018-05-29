@@ -1,0 +1,25 @@
+
+Static library
+
+AFTER ALL OPERATIONS ON DYNAMIC ALLOCATED ARRAY
+ kernel: 0.324237s   |   user: 8.317789s
+
+AFTER ALL OPERATIONS ON STATIC ALLOCATED ARRAY
+ kernel: 0.000000s   |   user: 13.281946s
+
+STATS FOR WHOLE PROGRAM:
+ real: 21.923981s   |    kernel: 0.324237s   |   user: 21.599745s
+
+
+Shared library
+
+AFTER ALL OPERATIONS ON DYNAMIC ALLOCATED ARRAY
+ kernel: 0.256045s   |   user: 8.273088s
+
+AFTER ALL OPERATIONS ON STATIC ALLOCATED ARRAY
+ kernel: 0.040085s   |   user: 13.492098s
+
+STATS FOR WHOLE PROGRAM:
+ real: 22.061328s   |    kernel: 0.296130s   |   user: 21.765200s
+
+KOMENTARZ: podobny czas wywolania
