@@ -1,0 +1,9 @@
+P=10
+K=10
+N=20
+L=10
+OUTPUT_MODE=1
+SEARCH_MODE=1
+PATH=input/pan_tadeusz.txt
+nk=15
+
