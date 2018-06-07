@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f88e425-01fa-434d-9756-349b90f2cf67" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="client.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex1/client.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="e#102#178#0" />
+                <element signature="e#179#244#1" />
+                <element signature="e#373#641#0" />
+                <element signature="e#643#1096#0" />
+                <element signature="e#1098#1192#0" />
+                <element signature="e#1406#1563#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex1/server.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+              <folding>
+                <element signature="e#234#287#1" />
+                <element signature="e#290#366#0" />
+                <element signature="e#367#432#1" />
+                <element signature="e#643#918#0" />
+                <element signature="e#999#1033#0" />
+                <element signature="e#920#1409#0" />
+                <element signature="e#1535#1790#0" />
+                <element signature="e#1818#1846#0" />
+                <element signature="e#1792#2097#0" />
+                <element signature="e#2099#2311#0" />
+                <element signature="e#2313#3373#0" />
+                <element signature="e#3460#3582#0" />
+                <element signature="e#3375#3575#0" />
+                <element signature="e#3577#3862#0" />
+                <element signature="e#3864#3948#0" />
+                <element signature="e#3950#4122#0" />
+                <element signature="e#4448#5233#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remove</find>
+      <find>put</find>
+      <find>conne</find>
+      <find>Connection accepted</find>
+      <find>messa</find>
+      <find>enter</find>
+      <find>client_reply</find>
+      <find>send</find>
+      <find>send(</find>
+      <find>server_reply</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ex1/client.c" />
+        <option value="$PROJECT_DIR$/ex1/server.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1853" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jakub_ziarko_lab10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jakub_ziarko_lab10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jakub_ziarko_lab10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jakub_ziarko_lab10" type="462c0819:PsiDirectoryNode" />
+              <item name="ex1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/kuba/Workspace/C/jakub_ziarko_lab10/ex1/client.c" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f88e425-01fa-434d-9756-349b90f2cf67" name="Default" comment="" />
+      <created>1528209655333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528209655333</updated>
+      <workItem from="1528209657329" duration="26000" />
+      <workItem from="1528211021359" duration="1853000" />
+      <workItem from="1528229422976" duration="600000" />
+      <workItem from="1528271370741" duration="2912000" />
+      <workItem from="1528278898476" duration="8658000" />
+      <workItem from="1528290312458" duration="9757000" />
+      <workItem from="1528300647668" duration="1752000" />
+      <workItem from="1528357557509" duration="1526000" />
+      <workItem from="1528379715449" duration="8553000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35637000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="2493" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14881669" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#102#178#0" />
+            <element signature="e#179#244#1" />
+            <element signature="e#373#641#0" />
+            <element signature="e#643#1096#0" />
+            <element signature="e#1098#1192#0" />
+            <element signature="e#1406#1563#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="32" lean-forward="true" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="128" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="128" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="79" lean-forward="true" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#102#178#0" />
+            <element signature="e#179#244#1" />
+            <element signature="e#373#641#0" />
+            <element signature="e#643#1096#0" />
+            <element signature="e#1098#1192#0" />
+            <element signature="e#1406#1563#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="e#234#287#1" />
+            <element signature="e#290#366#0" />
+            <element signature="e#367#432#1" />
+            <element signature="e#643#918#0" />
+            <element signature="e#999#1033#0" />
+            <element signature="e#920#1409#0" />
+            <element signature="e#1535#1790#0" />
+            <element signature="e#1818#1846#0" />
+            <element signature="e#1792#2097#0" />
+            <element signature="e#2099#2311#0" />
+            <element signature="e#2313#3373#0" />
+            <element signature="e#3460#3582#0" />
+            <element signature="e#3375#3575#0" />
+            <element signature="e#3577#3862#0" />
+            <element signature="e#3864#3948#0" />
+            <element signature="e#3950#4122#0" />
+            <element signature="e#4448#5233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
