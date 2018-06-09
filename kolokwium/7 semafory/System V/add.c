@@ -51,31 +51,31 @@ int main(){
 
 	// tworzenie semafora
 	project_key = ftok(sem_path, PROJECT_ID);
-    if (project_key == -1) {
-        perror("ftok sem");
-        return -1;
-    }
-    semaphore_id = semget(project_key, 1, IPC_CREAT | S_IRWXU);
-    if (semaphore_id == -1) {
-        printf("add: Couldn't create semaphore\n");
-        return -1;
-    }
-    semctl(semaphore_id, 0, SETVAL, 1);
+	if (project_key == -1) {
+		perror("ftok sem");
+		return -1;
+	}
+   	smaphore_id = semget(project_key, 1, IPC_CREAT | S_IRWXU);
+    	if (semaphore_id == -1) {
+        	printf("add: Couldn't create semaphore\n");
+        	return -1;
+    	}
+    	semctl(semaphore_id, 0, SETVAL, 1);
 
 
 	// tworzenie współdzielonej pamięci
 	project_key = ftok(shm_path, PROJECT_ID);
-    if (project_key == -1) {
-        printf("shm add: Couldn't obtain a project key\n");
-        return -1;
-    }
-    shared_memory_id = shmget(project_key, sizeof(struct common_memory), S_IRWXU | IPC_CREAT);
-    if (shared_memory_id == -1) {
-        printf("add: Couldn't create shared memory\n");
-        return -1;
-    }
-    void *tmp = shmat(shared_memory_id, 0, 0);
-    common_memory1 = (struct common_memory *) tmp;
+    	if (project_key == -1) {
+        	printf("shm add: Couldn't obtain a project key\n");
+        	return -1;
+    	}
+    	shared_memory_id = shmget(project_key, sizeof(struct common_memory), S_IRWXU | IPC_CREAT);
+    	if (shared_memory_id == -1) {
+		printf("add: Couldn't create shared memory\n");
+        	return -1;
+    	}
+    	void *tmp = shmat(shared_memory_id, 0, 0);
+    	common_memory1 = (struct common_memory *) tmp;
 
 	
 	// ustawienie pamieci
