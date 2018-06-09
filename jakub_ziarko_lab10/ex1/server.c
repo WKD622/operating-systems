@@ -110,6 +110,15 @@ void add(int socket, char *name) {
     strcpy(client_sockets[i].name, name);
 }
 
+int check_if_exists(char *name) {
+    int i;
+    for (i = 0; i < MAX_NUMBER_OF_CLIENTS; i++) {
+        if (strcmp(client_sockets[i].name, name) == 0)
+            return 1;
+    }
+    return 0;
+}
+
 void *accept_connection(void *arg) {
     int socket_desc = *(int *) arg;
     listen(socket_desc, MAX_NUMBER_OF_CLIENTS);
@@ -127,8 +136,11 @@ void *accept_connection(void *arg) {
         occupied++;
 
         if (recv(client_sock, client_message, 1000, 0) > 0) {
-            add(client_sock, client_message);
-            puts("Server: Name received.\n");
+            if (check_if_exists(client_message) == 0) {
+                add(client_sock, client_message);
+                puts("Server: Name received.\n");
+            } else
+                printf("Client whose name is %s already exists\n", client_message);
         } else {
             perror("Server: No name received.\n");
         }

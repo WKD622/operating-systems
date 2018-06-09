@@ -5,7 +5,6 @@
 #include <sys/wait.h>
 #include <sys/errno.h>
 #include <stdio.h>
-#include <zconf.h>
 #include <stdbool.h>
 #include <stdlib.h>
 

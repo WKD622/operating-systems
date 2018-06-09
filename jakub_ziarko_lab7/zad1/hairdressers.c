@@ -5,19 +5,7 @@ int ANTEROOM_SIZE, NUMBER_OF_CLIENTS;
 struct antreroom *hairdressers_antreroom;
 
 void prepare_shared_memory() {
-    key_t project_key = ftok(shmPath, project_id);
-    if (project_key == -1) {
-        printf("Couldn't obtain a project key\n");
-        return;
-    }
-    shared_memory_id = shmget(project_key, sizeof(struct antreroom), S_IRWXU | IPC_CREAT);
-    if (shared_memory_id == -1) {
-        printf("Couldn't create shared memory\n");
-        return;
-    }
-
-    void *tmp = shmat(shared_memory_id, 0, 0);
-    hairdressers_antreroom = (struct antreroom *) tmp;
+    c
 }
 
 void prepare_semaphores() {

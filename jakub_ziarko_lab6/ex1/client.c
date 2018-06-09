@@ -5,7 +5,6 @@
 #include <sys/wait.h>
 #include <sys/errno.h>
 #include <stdio.h>
-#include <zconf.h>
 
 #define MSGPERM 0600    // msg queue permission
 #define MSGTXTLEN 128   // msg text length
