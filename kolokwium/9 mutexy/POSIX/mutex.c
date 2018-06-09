@@ -27,10 +27,14 @@ void *add(void *args) {
     while (1) {
         pthread_mutex_lock(&mutex);
         while (check_if_one()) {
+			puts("waiting for 0");
             pthread_cond_wait(&cond_add, &mutex);
         }
-        if (check_if_zero())
+        if (check_if_zero()){
 			value = 1;
+			puts("set value to 1");
+			sleep(1);
+		}
 		if (check_if_one())
 			pthread_cond_broadcast(&cond_remove);
         pthread_mutex_unlock(&mutex);
@@ -42,11 +46,13 @@ void *removee(void *args) {
     while (1) {
         pthread_mutex_lock(&mutex);
         while (check_if_zero()) {
+			puts("waiting for 1");
             pthread_cond_wait(&cond_remove, &mutex);
         }
         if (check_if_one()){
 			value = 0;
 			puts("set value to 0");
+			sleep(1);
 		}
 		if (check_if_zero())
 			pthread_cond_broadcast(&cond_add);
